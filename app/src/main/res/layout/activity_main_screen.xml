@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a202128.kalkukator.MainScreen">
+    tools:context="com.example.a202128.kalkukator.MainScreenActivity">
 
     <LinearLayout
         android:layout_width="370dp"
@@ -21,28 +21,42 @@
 
         <Button
             android:id="@+id/standard"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Standard" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="runStandardCalculator"
+            android:text="@string/simpleButton" />
 
         <Button
             android:id="@+id/advanced"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Advanced" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="runAdvamcedCalculator"
+            android:text="@string/advancedButton" />
 
         <Button
             android:id="@+id/about"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:onClick="goToAbout"
-            android:text="About" />
+            android:text="@string/aboutButton" />
 
         <Button
             android:id="@+id/exit"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:onClick="closeApp"
-            android:text="Exit" />
+            android:text="@string/exitButton" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

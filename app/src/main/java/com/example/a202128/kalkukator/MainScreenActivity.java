@@ -4,10 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class MainScreen extends AppCompatActivity {
-
+public class MainScreenActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +20,16 @@ public class MainScreen extends AppCompatActivity {
 
     public void goToAbout(View v){
         Intent intent = new Intent(this, AboutActivity.class);
+        startActivity(intent);
+    }
+
+    public void runStandardCalculator(View v){
+        Intent intent = new Intent(this, SimpleCalculatorActivity.class);
+        startActivity(intent);
+    }
+
+    public void runAdvamcedCalculator(View v){
+        Intent intent = new Intent(this, AdvancedCalculatorActivity.class);
         startActivity(intent);
     }
 

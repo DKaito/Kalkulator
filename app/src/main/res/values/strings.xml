@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">Kalkukator</string>
+    <string name="simpleButton">Simple</string>
+    <string name="advancedButton">Advanced</string>
+    <string name="aboutButton">About</string>
+    <string name="exitButton">Exit</string>
+    <string name="appDescription1">Aplikacja typu Kalkulator.\nAutor :\nBartłomiej Chmielarz\nNr. Indeksu :\n202128\n\nAplikacja obejmuje 2 tryby pracy kalkulatora: \n"Simple"
+    - oferujący podstawowe działania \n"Advanced" - oferujący dodatkowe działania matematyczne takie jak potęgowanie czy logarytmy. </string>
+    <string name="mathButton0">0</string>
+    <string name="mathButton1">1</string>
+    <string name="mathButton2">2</string>
+    <string name="mathButton3">3</string>
+    <string name="mathButton4">4</string>
+    <string name="mathButton5">5</string>
+    <string name="mathButton6">6</string>
+    <string name="mathButton7">7</string>
+    <string name="mathButton8">8</string>
+    <string name="mathButton9">9</string>
+    <string name="mathButtonPlus">+</string>
+    <string name="mathButtonMinus">-</string>
+    <string name="mathButtonDot">.</string>
+    <string name="mathButtonDiv">/</string>
+    <string name="mathButtonMltp">*</string>
+    <string name="mathButtonPlsMin">&#xB1;</string>
+    <string name="mathButtonEquals">=</string>
+    <string name="mathButtonBkspc">Bkspc</string>
+    <string name="mathButtonC">C</string>
+    <string name="mathButtonSin">Sin</string>
+    <string name="mathButtonCos">Cos</string>
+    <string name="mathButtonTan">Tan</string>
+    <string name="mathButtonLn">Ln</string>
+    <string name="mathButtonSqrt">Sqrt</string>
+    <string name="mathButtonSqPow">x^2</string>
+    <string name="mathButtonYPow">x^y</string>
+    <string name="mathButtonLog">Log</string>
+
+
 </resources>

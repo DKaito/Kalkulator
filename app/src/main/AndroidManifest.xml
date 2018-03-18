@@ -9,17 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainScreen">
+        <activity android:name=".MainScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".AboutActivity"
-            android:parentActivityName=".MainScreen"></activity>
-        <activity android:name=".StandardCalculatorActivity"></activity>
+            android:parentActivityName=".MainScreenActivity" />
+        <activity
+            android:name=".SimpleCalculatorActivity"
+            android:parentActivityName=".MainScreenActivity" />
+        <activity
+            android:name=".AdvancedCalculatorActivity"
+            android:parentActivityName=".MainScreenActivity" />
     </application>
 
 </manifest>
