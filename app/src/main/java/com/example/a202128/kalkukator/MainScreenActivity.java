@@ -25,11 +25,13 @@ public class MainScreenActivity extends AppCompatActivity {
 
     public void runStandardCalculator(View v){
         Intent intent = new Intent(this, SimpleCalculatorActivity.class);
+        intent.putExtra("mode",1);
         startActivity(intent);
     }
 
     public void runAdvamcedCalculator(View v){
-        Intent intent = new Intent(this, AdvancedCalculatorActivity.class);
+        Intent intent = new Intent(this, SimpleCalculatorActivity.class);
+        intent.putExtra("mode",2);
         startActivity(intent);
     }
 

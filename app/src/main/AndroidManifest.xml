@@ -16,14 +16,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AboutActivity"
-            android:parentActivityName=".MainScreenActivity" />
+            android:name=".AboutActivity" />
         <activity
-            android:name=".SimpleCalculatorActivity"
-            android:parentActivityName=".MainScreenActivity" />
+            android:name=".SimpleCalculatorActivity" />
         <activity
-            android:name=".AdvancedCalculatorActivity"
-            android:parentActivityName=".MainScreenActivity" />
+            android:name=".AdvancedCalculatorActivity" />
     </application>
 
 </manifest>
