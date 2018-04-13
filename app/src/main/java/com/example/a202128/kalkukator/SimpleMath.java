@@ -127,6 +127,7 @@ public class SimpleMath {
         numberB = NaN;
         symbol = "";
         register = 0.0;
+        lastAction = "";
     }
 
 }

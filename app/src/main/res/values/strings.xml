@@ -33,6 +33,7 @@
     <string name="mathButtonSqPow">x^2</string>
     <string name="mathButtonYPow">x^y</string>
     <string name="mathButtonLog">Log</string>
+    <string name="ErrInfo">ERR</string>
 
 
 </resources>
